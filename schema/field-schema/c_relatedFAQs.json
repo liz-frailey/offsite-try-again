@@ -1,0 +1,17 @@
+{
+  "$id": "c_relatedFAQs",
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$type": "https://schema.yext.com/config/schema/field-schema",
+  "type": "array",
+  "title": "Related FAQs",
+  "items": {
+    "entityTypeId": [
+      4002
+    ],
+    "format": "ref",
+    "refKey": "https://schema.yext.com/fields/yext/entityId",
+    "type": "integer"
+  },
+  "uniqueItems": true,
+  "yext.field_id": "location.custom.2470859.related_faqs.0"
+}

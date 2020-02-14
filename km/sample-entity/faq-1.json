@@ -1,0 +1,9 @@
+{
+  "$id": "faq-1",
+  "$type": "https://schema.yext.com/config/km/sample-entity",
+  "entityType": "faq",
+  "content": {
+    "yext.answer": "Provide your customers with brand verified answers!",
+    "yext.name": "FAQ example"
+  }
+}

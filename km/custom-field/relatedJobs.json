@@ -1,0 +1,21 @@
+{
+  "$id": "relatedJobs",
+  "$type": "https://schema.yext.com/config/km/custom-field",
+  "displayName": "Related Jobs",
+  "apiName": "c_relatedJobs",
+  "typeId": "type.list",
+  "type": {
+    "listType": {
+      "typeId": "type.entity_reference",
+      "type": {
+        "entityReferenceType": {
+          "supportedEntityTypeIds": [
+            "job"
+          ]
+        }
+      }
+    }
+  },
+  "localization": "PRIMARY_ONLY",
+  "group": "GROUP1"
+}

@@ -1,0 +1,21 @@
+{
+  "$id": "relatedFAQs",
+  "$type": "https://schema.yext.com/config/km/custom-field",
+  "displayName": "Related FAQs",
+  "apiName": "c_relatedFAQs",
+  "typeId": "type.list",
+  "type": {
+    "listType": {
+      "typeId": "type.entity_reference",
+      "type": {
+        "entityReferenceType": {
+          "supportedEntityTypeIds": [
+            "faq"
+          ]
+        }
+      }
+    }
+  },
+  "localization": "PRIMARY_ONLY",
+  "group": "GROUP1"
+}

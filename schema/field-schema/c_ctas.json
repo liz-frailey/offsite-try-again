@@ -1,0 +1,73 @@
+{
+  "$id": "c_ctas",
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$type": "https://schema.yext.com/config/schema/field-schema",
+  "type": "array",
+  "title": "CTAs",
+  "items": {
+    "properties": {
+      "icon": {
+        "enum": [
+          "briefcase",
+          "calendar",
+          "callout",
+          "chevron",
+          "document",
+          "gear",
+          "info",
+          "kabob",
+          "link",
+          "magnifying_glass",
+          "mic",
+          "office",
+          "pantheon",
+          "person",
+          "phone",
+          "pin",
+          "receipt",
+          "star",
+          "support",
+          "tag",
+          "window"
+        ],
+        "enumTitle": {
+          "briefcase": "briefcase",
+          "calendar": "calendar",
+          "callout": "callout",
+          "chevron": "chevron",
+          "document": "document",
+          "gear": "gear",
+          "info": "info",
+          "kabob": "kabob",
+          "link": "link",
+          "magnifying_glass": "magnifying_glass",
+          "mic": "mic",
+          "office": "office",
+          "pantheon": "pantheon",
+          "person": "person",
+          "phone": "phone",
+          "pin": "pin",
+          "receipt": "receipt",
+          "star": "star",
+          "support": "support",
+          "tag": "tag",
+          "window": "window"
+        },
+        "title": "Icon",
+        "type": "string"
+      },
+      "text": {
+        "title": "Text",
+        "type": "string"
+      },
+      "url": {
+        "format": "uri",
+        "title": "URL",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "maxItems": 2,
+  "yext.field_id": "location.custom.2470859.ctas.0"
+}

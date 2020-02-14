@@ -1,0 +1,22 @@
+{
+  "$id": "event-1",
+  "$type": "https://schema.yext.com/config/km/sample-entity",
+  "entityType": "event",
+  "content": {
+    "yext.address": {
+      "city": "New York",
+      "countryCode": "US",
+      "line1": "1 Madison Ave",
+      "postalCode": "10010",
+      "region": "NY"
+    },
+    "yext.linkedLocation": "location-123",
+    "yext.name": "Event",
+    "yext.time": {
+      "end": "2021-02-08T20:00",
+      "start": "2021-02-08T18:00"
+    },
+    "yext.timezone": "America/New_York",
+    "yext.venueName": "Location"
+  }
+}

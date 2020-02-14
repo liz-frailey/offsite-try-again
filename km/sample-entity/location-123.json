@@ -1,0 +1,22 @@
+{
+  "$id": "location-123",
+  "$type": "https://schema.yext.com/config/km/sample-entity",
+  "entityType": "location",
+  "content": {
+    "yext.address": {
+      "city": "New York",
+      "countryCode": "US",
+      "line1": "1 Madison Ave",
+      "postalCode": "10010",
+      "region": "NY"
+    },
+    "yext.addressHidden": false,
+    "yext.featuredMessage": {
+      "description": "Come visit us today!",
+      "url": "http://www.website.com"
+    },
+    "yext.mainPhone": "+12125551212",
+    "yext.name": "Location",
+    "yext.timezone": "America/New_York"
+  }
+}

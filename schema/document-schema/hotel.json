@@ -1,0 +1,555 @@
+{
+  "$id": "hotel",
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$type": "https://schema.yext.com/config/schema/document-schema",
+  "primaryKey": "entityId",
+  "type": "object",
+  "description": "This entity type is for hotels or other multi-unit establishments providing accommodation and other services for travelers.",
+  "properties": {
+    "accessibilityDetails": {
+      "$ref": "https://schema.yext.com/fields/yext/accessibilityDetails"
+    },
+    "additionalHoursText": {
+      "$ref": "https://schema.yext.com/fields/yext/additionalHoursText"
+    },
+    "address": {
+      "$ref": "https://schema.yext.com/fields/yext/address"
+    },
+    "addressHidden": {
+      "$ref": "https://schema.yext.com/fields/yext/addressHidden"
+    },
+    "adultPool": {
+      "$ref": "https://schema.yext.com/fields/yext/adultPool"
+    },
+    "airportShuttle": {
+      "$ref": "https://schema.yext.com/fields/yext/airportShuttle"
+    },
+    "airportTransfer": {
+      "$ref": "https://schema.yext.com/fields/yext/airportTransfer"
+    },
+    "allInclusive": {
+      "$ref": "https://schema.yext.com/fields/yext/allInclusive"
+    },
+    "alternateNames": {
+      "$ref": "https://schema.yext.com/fields/yext/alternateNames"
+    },
+    "alternatePhone": {
+      "$ref": "https://schema.yext.com/fields/yext/alternatePhone"
+    },
+    "alternateWebsites": {
+      "$ref": "https://schema.yext.com/fields/yext/alternateWebsites"
+    },
+    "androidAppUrl": {
+      "$ref": "https://schema.yext.com/fields/yext/androidAppUrl"
+    },
+    "associations": {
+      "$ref": "https://schema.yext.com/fields/yext/associations"
+    },
+    "babysittingOffered": {
+      "$ref": "https://schema.yext.com/fields/yext/babysittingOffered"
+    },
+    "baggageStorage": {
+      "$ref": "https://schema.yext.com/fields/yext/baggageStorage"
+    },
+    "bar": {
+      "$ref": "https://schema.yext.com/fields/yext/bar"
+    },
+    "beachAccess": {
+      "$ref": "https://schema.yext.com/fields/yext/beachAccess"
+    },
+    "beachFrontProperty": {
+      "$ref": "https://schema.yext.com/fields/yext/beachFrontProperty"
+    },
+    "bicycles": {
+      "$ref": "https://schema.yext.com/fields/yext/bicycles"
+    },
+    "boutiqueStores": {
+      "$ref": "https://schema.yext.com/fields/yext/boutiqueStores"
+    },
+    "brands": {
+      "$ref": "https://schema.yext.com/fields/yext/brands"
+    },
+    "breakfast": {
+      "$ref": "https://schema.yext.com/fields/yext/breakfast"
+    },
+    "buffetOptions": {
+      "$ref": "https://schema.yext.com/fields/yext/buffetOptions"
+    },
+    "businessCenter": {
+      "$ref": "https://schema.yext.com/fields/yext/businessCenter"
+    },
+    "c_ctas": {
+      "$ref": "https://schema.yext.com/fields/account-2470859/c_ctas"
+    },
+    "c_relatedFAQs": {
+      "$ref": "https://schema.yext.com/fields/account-2470859/c_relatedFAQs"
+    },
+    "c_relatedJobs": {
+      "$ref": "https://schema.yext.com/fields/account-2470859/c_relatedJobs"
+    },
+    "carRental": {
+      "$ref": "https://schema.yext.com/fields/yext/carRental"
+    },
+    "casino": {
+      "$ref": "https://schema.yext.com/fields/yext/casino"
+    },
+    "catsAllowed": {
+      "$ref": "https://schema.yext.com/fields/yext/catsAllowed"
+    },
+    "checkInTime": {
+      "$ref": "https://schema.yext.com/fields/yext/checkInTime"
+    },
+    "checkOutTime": {
+      "$ref": "https://schema.yext.com/fields/yext/checkOutTime"
+    },
+    "classificationRating": {
+      "$ref": "https://schema.yext.com/fields/yext/classificationRating"
+    },
+    "closed": {
+      "$ref": "https://schema.yext.com/fields/yext/closed"
+    },
+    "concierge": {
+      "$ref": "https://schema.yext.com/fields/yext/concierge"
+    },
+    "convenienceStore": {
+      "$ref": "https://schema.yext.com/fields/yext/convenienceStore"
+    },
+    "currencyExchange": {
+      "$ref": "https://schema.yext.com/fields/yext/currencyExchange"
+    },
+    "customKeywords": {
+      "$ref": "https://schema.yext.com/fields/yext/customKeywords"
+    },
+    "deliverListingsWithoutGeocode": {
+      "$ref": "https://schema.yext.com/fields/yext/deliverListingsWithoutGeocode"
+    },
+    "description": {
+      "$ref": "https://schema.yext.com/fields/yext/description"
+    },
+    "displayCoordinate": {
+      "$ref": "https://schema.yext.com/fields/yext/displayCoordinate"
+    },
+    "doctorOnCall": {
+      "$ref": "https://schema.yext.com/fields/yext/doctorOnCall"
+    },
+    "dogsAllowed": {
+      "$ref": "https://schema.yext.com/fields/yext/dogsAllowed"
+    },
+    "dropoffCoordinate": {
+      "$ref": "https://schema.yext.com/fields/yext/dropoffCoordinate"
+    },
+    "electricChargingStation": {
+      "$ref": "https://schema.yext.com/fields/yext/electricChargingStation"
+    },
+    "elevator": {
+      "$ref": "https://schema.yext.com/fields/yext/elevator"
+    },
+    "ellipticalMachine": {
+      "$ref": "https://schema.yext.com/fields/yext/ellipticalMachine"
+    },
+    "emails": {
+      "$ref": "https://schema.yext.com/fields/yext/emails"
+    },
+    "entityId": {
+      "$ref": "https://schema.yext.com/fields/yext/entityId"
+    },
+    "externalEntityId": {
+      "$ref": "https://schema.yext.com/fields/yext/externalEntityId"
+    },
+    "facebookCallToAction": {
+      "$ref": "https://schema.yext.com/fields/yext/facebookCallToAction"
+    },
+    "facebookCoverPhoto": {
+      "$ref": "https://schema.yext.com/fields/yext/facebookCoverPhoto"
+    },
+    "facebookDescriptor": {
+      "$ref": "https://schema.yext.com/fields/yext/facebookDescriptor"
+    },
+    "facebookEmail": {
+      "$ref": "https://schema.yext.com/fields/yext/facebookEmail"
+    },
+    "facebookName": {
+      "$ref": "https://schema.yext.com/fields/yext/facebookName"
+    },
+    "facebookOverrideCity": {
+      "$ref": "https://schema.yext.com/fields/yext/facebookOverrideCity"
+    },
+    "facebookPageUrl": {
+      "$ref": "https://schema.yext.com/fields/yext/facebookPageUrl"
+    },
+    "facebookProfilePhoto": {
+      "$ref": "https://schema.yext.com/fields/yext/facebookProfilePhoto"
+    },
+    "facebookStoreId": {
+      "$ref": "https://schema.yext.com/fields/yext/facebookStoreId"
+    },
+    "facebookVanityUrl": {
+      "$ref": "https://schema.yext.com/fields/yext/facebookVanityUrl"
+    },
+    "fax": {
+      "$ref": "https://schema.yext.com/fields/yext/fax"
+    },
+    "featuredMessage": {
+      "$ref": "https://schema.yext.com/fields/yext/featuredMessage"
+    },
+    "fitnessCenter": {
+      "$ref": "https://schema.yext.com/fields/yext/fitnessCenter"
+    },
+    "floorCount": {
+      "$ref": "https://schema.yext.com/fields/yext/floorCount"
+    },
+    "freeWeights": {
+      "$ref": "https://schema.yext.com/fields/yext/freeWeights"
+    },
+    "frequentlyAskedQuestions": {
+      "$ref": "https://schema.yext.com/fields/yext/frequentlyAskedQuestions"
+    },
+    "frontDesk": {
+      "$ref": "https://schema.yext.com/fields/yext/frontDesk"
+    },
+    "gameRoom": {
+      "$ref": "https://schema.yext.com/fields/yext/gameRoom"
+    },
+    "geomodifier": {
+      "$ref": "https://schema.yext.com/fields/yext/geomodifier"
+    },
+    "giftShop": {
+      "$ref": "https://schema.yext.com/fields/yext/giftShop"
+    },
+    "golf": {
+      "$ref": "https://schema.yext.com/fields/yext/golf"
+    },
+    "googleAccountId": {
+      "$ref": "https://schema.yext.com/fields/yext/googleAccountId"
+    },
+    "googleCoverPhoto": {
+      "$ref": "https://schema.yext.com/fields/yext/googleCoverPhoto"
+    },
+    "googleMyBusinessLabels": {
+      "$ref": "https://schema.yext.com/fields/yext/googleMyBusinessLabels"
+    },
+    "googlePlaceId": {
+      "$ref": "https://schema.yext.com/fields/yext/googlePlaceId"
+    },
+    "googleProfilePhoto": {
+      "$ref": "https://schema.yext.com/fields/yext/googleProfilePhoto"
+    },
+    "googleShortName": {
+      "$ref": "https://schema.yext.com/fields/yext/googleShortName"
+    },
+    "holidayHoursConversationEnabled": {
+      "$ref": "https://schema.yext.com/fields/yext/holidayHoursConversationEnabled"
+    },
+    "horsebackRiding": {
+      "$ref": "https://schema.yext.com/fields/yext/horsebackRiding"
+    },
+    "hotTub": {
+      "$ref": "https://schema.yext.com/fields/yext/hotTub"
+    },
+    "hours": {
+      "$ref": "https://schema.yext.com/fields/yext/hours"
+    },
+    "housekeeping": {
+      "$ref": "https://schema.yext.com/fields/yext/housekeeping"
+    },
+    "impressum": {
+      "$ref": "https://schema.yext.com/fields/yext/impressum"
+    },
+    "indoorPoolCount": {
+      "$ref": "https://schema.yext.com/fields/yext/indoorPoolCount"
+    },
+    "instagramHandle": {
+      "$ref": "https://schema.yext.com/fields/yext/instagramHandle"
+    },
+    "iosAppUrl": {
+      "$ref": "https://schema.yext.com/fields/yext/iosAppUrl"
+    },
+    "isoRegionCode": {
+      "$ref": "https://schema.yext.com/fields/yext/isoRegionCode"
+    },
+    "keywords": {
+      "$ref": "https://schema.yext.com/fields/yext/keywords"
+    },
+    "kidFriendly": {
+      "$ref": "https://schema.yext.com/fields/yext/kidFriendly"
+    },
+    "kidsClub": {
+      "$ref": "https://schema.yext.com/fields/yext/kidsClub"
+    },
+    "kidsStayFree": {
+      "$ref": "https://schema.yext.com/fields/yext/kidsStayFree"
+    },
+    "labels": {
+      "$ref": "https://schema.yext.com/fields/yext/labels"
+    },
+    "landingPageUrl": {
+      "$ref": "https://schema.yext.com/fields/yext/landingPageUrl"
+    },
+    "languages": {
+      "$ref": "https://schema.yext.com/fields/yext/languages"
+    },
+    "laundry": {
+      "$ref": "https://schema.yext.com/fields/yext/laundry"
+    },
+    "lazyRiver": {
+      "$ref": "https://schema.yext.com/fields/yext/lazyRiver"
+    },
+    "lifeguard": {
+      "$ref": "https://schema.yext.com/fields/yext/lifeguard"
+    },
+    "localPhone": {
+      "$ref": "https://schema.yext.com/fields/yext/localPhone"
+    },
+    "localShuttle": {
+      "$ref": "https://schema.yext.com/fields/yext/localShuttle"
+    },
+    "logo": {
+      "$ref": "https://schema.yext.com/fields/yext/logo"
+    },
+    "mainPhone": {
+      "$ref": "https://schema.yext.com/fields/yext/mainPhone"
+    },
+    "massage": {
+      "$ref": "https://schema.yext.com/fields/yext/massage"
+    },
+    "maxAgeOfKidsStayFree": {
+      "$ref": "https://schema.yext.com/fields/yext/maxAgeOfKidsStayFree"
+    },
+    "maxNumberOfKidsStayFree": {
+      "$ref": "https://schema.yext.com/fields/yext/maxNumberOfKidsStayFree"
+    },
+    "meetingRoomCount": {
+      "$ref": "https://schema.yext.com/fields/yext/meetingRoomCount"
+    },
+    "menuUrl": {
+      "$ref": "https://schema.yext.com/fields/yext/menuUrl"
+    },
+    "mobilePhone": {
+      "$ref": "https://schema.yext.com/fields/yext/mobilePhone"
+    },
+    "mobilityAccessible": {
+      "$ref": "https://schema.yext.com/fields/yext/mobilityAccessible"
+    },
+    "name": {
+      "$ref": "https://schema.yext.com/fields/yext/name"
+    },
+    "nightclub": {
+      "$ref": "https://schema.yext.com/fields/yext/nightclub"
+    },
+    "nudgeEnabled": {
+      "$ref": "https://schema.yext.com/fields/yext/nudgeEnabled"
+    },
+    "orderUrl": {
+      "$ref": "https://schema.yext.com/fields/yext/orderUrl"
+    },
+    "outdoorPoolCount": {
+      "$ref": "https://schema.yext.com/fields/yext/outdoorPoolCount"
+    },
+    "parking": {
+      "$ref": "https://schema.yext.com/fields/yext/parking"
+    },
+    "paymentOptions": {
+      "$ref": "https://schema.yext.com/fields/yext/paymentOptions"
+    },
+    "petsAllowed": {
+      "$ref": "https://schema.yext.com/fields/yext/petsAllowed"
+    },
+    "photoGallery": {
+      "$ref": "https://schema.yext.com/fields/yext/photoGallery"
+    },
+    "pickupCoordinate": {
+      "$ref": "https://schema.yext.com/fields/yext/pickupCoordinate"
+    },
+    "primaryConversationContact": {
+      "$ref": "https://schema.yext.com/fields/yext/primaryConversationContact"
+    },
+    "privateBeach": {
+      "$ref": "https://schema.yext.com/fields/yext/privateBeach"
+    },
+    "privateCarService": {
+      "$ref": "https://schema.yext.com/fields/yext/privateCarService"
+    },
+    "questionsAndAnswers": {
+      "$ref": "https://schema.yext.com/fields/yext/questionsAndAnswers"
+    },
+    "rankTrackingCompetitors": {
+      "$ref": "https://schema.yext.com/fields/yext/rankTrackingCompetitors"
+    },
+    "rankTrackingEnabled": {
+      "$ref": "https://schema.yext.com/fields/yext/rankTrackingEnabled"
+    },
+    "rankTrackingFrequency": {
+      "$ref": "https://schema.yext.com/fields/yext/rankTrackingFrequency"
+    },
+    "rankTrackingQueryTemplates": {
+      "$ref": "https://schema.yext.com/fields/yext/rankTrackingQueryTemplates"
+    },
+    "rankTrackingSites": {
+      "$ref": "https://schema.yext.com/fields/yext/rankTrackingSites"
+    },
+    "reservationUrl": {
+      "$ref": "https://schema.yext.com/fields/yext/reservationUrl"
+    },
+    "restaurantCount": {
+      "$ref": "https://schema.yext.com/fields/yext/restaurantCount"
+    },
+    "reviewResponseConversationEnabled": {
+      "$ref": "https://schema.yext.com/fields/yext/reviewResponseConversationEnabled"
+    },
+    "roomCount": {
+      "$ref": "https://schema.yext.com/fields/yext/roomCount"
+    },
+    "roomService": {
+      "$ref": "https://schema.yext.com/fields/yext/roomService"
+    },
+    "routableCoordinate": {
+      "$ref": "https://schema.yext.com/fields/yext/routableCoordinate"
+    },
+    "salon": {
+      "$ref": "https://schema.yext.com/fields/yext/salon"
+    },
+    "sauna": {
+      "$ref": "https://schema.yext.com/fields/yext/sauna"
+    },
+    "scuba": {
+      "$ref": "https://schema.yext.com/fields/yext/scuba"
+    },
+    "selfParking": {
+      "$ref": "https://schema.yext.com/fields/yext/selfParking"
+    },
+    "serviceArea": {
+      "$ref": "https://schema.yext.com/fields/yext/serviceArea"
+    },
+    "serviceAreaPlaces": {
+      "$ref": "https://schema.yext.com/fields/yext/serviceAreaPlaces"
+    },
+    "services": {
+      "$ref": "https://schema.yext.com/fields/yext/services"
+    },
+    "smokeFreeProperty": {
+      "$ref": "https://schema.yext.com/fields/yext/smokeFreeProperty"
+    },
+    "snorkeling": {
+      "$ref": "https://schema.yext.com/fields/yext/snorkeling"
+    },
+    "socialHour": {
+      "$ref": "https://schema.yext.com/fields/yext/socialHour"
+    },
+    "spa": {
+      "$ref": "https://schema.yext.com/fields/yext/spa"
+    },
+    "tableService": {
+      "$ref": "https://schema.yext.com/fields/yext/tableService"
+    },
+    "tennis": {
+      "$ref": "https://schema.yext.com/fields/yext/tennis"
+    },
+    "thermalPool": {
+      "$ref": "https://schema.yext.com/fields/yext/thermalPool"
+    },
+    "timezone": {
+      "$ref": "https://schema.yext.com/fields/yext/timezone"
+    },
+    "tollFreePhone": {
+      "$ref": "https://schema.yext.com/fields/yext/tollFreePhone"
+    },
+    "treadmill": {
+      "$ref": "https://schema.yext.com/fields/yext/treadmill"
+    },
+    "ttyPhone": {
+      "$ref": "https://schema.yext.com/fields/yext/ttyPhone"
+    },
+    "turndownService": {
+      "$ref": "https://schema.yext.com/fields/yext/turndownService"
+    },
+    "twitterHandle": {
+      "$ref": "https://schema.yext.com/fields/yext/twitterHandle"
+    },
+    "uberClientId": {
+      "$ref": "https://schema.yext.com/fields/yext/uberClientId"
+    },
+    "uberLink": {
+      "$ref": "https://schema.yext.com/fields/yext/uberLink"
+    },
+    "uberTripBranding": {
+      "$ref": "https://schema.yext.com/fields/yext/uberTripBranding"
+    },
+    "valetParking": {
+      "$ref": "https://schema.yext.com/fields/yext/valetParking"
+    },
+    "vendingMachine": {
+      "$ref": "https://schema.yext.com/fields/yext/vendingMachine"
+    },
+    "videos": {
+      "$ref": "https://schema.yext.com/fields/yext/videos"
+    },
+    "wadingPool": {
+      "$ref": "https://schema.yext.com/fields/yext/wadingPool"
+    },
+    "wakeUpCalls": {
+      "$ref": "https://schema.yext.com/fields/yext/wakeUpCalls"
+    },
+    "walkableCoordinate": {
+      "$ref": "https://schema.yext.com/fields/yext/walkableCoordinate"
+    },
+    "waterPark": {
+      "$ref": "https://schema.yext.com/fields/yext/waterPark"
+    },
+    "waterSkiing": {
+      "$ref": "https://schema.yext.com/fields/yext/waterSkiing"
+    },
+    "watercraft": {
+      "$ref": "https://schema.yext.com/fields/yext/watercraft"
+    },
+    "waterslide": {
+      "$ref": "https://schema.yext.com/fields/yext/waterslide"
+    },
+    "wavePool": {
+      "$ref": "https://schema.yext.com/fields/yext/wavePool"
+    },
+    "websiteUrl": {
+      "$ref": "https://schema.yext.com/fields/yext/websiteUrl"
+    },
+    "weightMachine": {
+      "$ref": "https://schema.yext.com/fields/yext/weightMachine"
+    },
+    "wheelchairAccessible": {
+      "$ref": "https://schema.yext.com/fields/yext/wheelchairAccessible"
+    },
+    "wifiAvailable": {
+      "$ref": "https://schema.yext.com/fields/yext/wifiAvailable"
+    },
+    "wifiDetails": {
+      "$ref": "https://schema.yext.com/fields/yext/wifiDetails"
+    },
+    "yearEstablished": {
+      "$ref": "https://schema.yext.com/fields/yext/yearEstablished"
+    },
+    "yearLastRenovated": {
+      "$ref": "https://schema.yext.com/fields/yext/yearLastRenovated"
+    },
+    "yextDisplayCoordinate": {
+      "$ref": "https://schema.yext.com/fields/yext/yextDisplayCoordinate"
+    },
+    "yextDropoffCoordinate": {
+      "$ref": "https://schema.yext.com/fields/yext/yextDropoffCoordinate"
+    },
+    "yextPickupCoordinate": {
+      "$ref": "https://schema.yext.com/fields/yext/yextPickupCoordinate"
+    },
+    "yextRoutableCoordinate": {
+      "$ref": "https://schema.yext.com/fields/yext/yextRoutableCoordinate"
+    },
+    "yextWalkableCoordinate": {
+      "$ref": "https://schema.yext.com/fields/yext/yextWalkableCoordinate"
+    }
+  },
+  "required": [
+    "address",
+    "entityId",
+    "externalEntityId",
+    "name"
+  ],
+  "title": "Hotel",
+  "yext.entity_type_id": 4000
+}

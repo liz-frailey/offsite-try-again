@@ -1,0 +1,70 @@
+{
+  "$id": "job",
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$type": "https://schema.yext.com/config/schema/document-schema",
+  "primaryKey": "entityId",
+  "type": "object",
+  "description": "Use this type to add information about available jobs to Yext.",
+  "properties": {
+    "applicationUrl": {
+      "$ref": "https://schema.yext.com/fields/yext/applicationUrl"
+    },
+    "c_ctas": {
+      "$ref": "https://schema.yext.com/fields/account-2470859/c_ctas"
+    },
+    "c_relatedFAQs": {
+      "$ref": "https://schema.yext.com/fields/account-2470859/c_relatedFAQs"
+    },
+    "datePosted": {
+      "$ref": "https://schema.yext.com/fields/yext/datePosted"
+    },
+    "description": {
+      "$ref": "https://schema.yext.com/fields/yext/description"
+    },
+    "employmentType": {
+      "$ref": "https://schema.yext.com/fields/yext/employmentType"
+    },
+    "entityId": {
+      "$ref": "https://schema.yext.com/fields/yext/entityId"
+    },
+    "externalEntityId": {
+      "$ref": "https://schema.yext.com/fields/yext/externalEntityId"
+    },
+    "hiringOrganization": {
+      "$ref": "https://schema.yext.com/fields/yext/hiringOrganization"
+    },
+    "jobLocation": {
+      "$ref": "https://schema.yext.com/fields/yext/jobLocation"
+    },
+    "keywords": {
+      "$ref": "https://schema.yext.com/fields/yext/keywords"
+    },
+    "labels": {
+      "$ref": "https://schema.yext.com/fields/yext/labels"
+    },
+    "landingPageUrl": {
+      "$ref": "https://schema.yext.com/fields/yext/landingPageUrl"
+    },
+    "name": {
+      "$ref": "https://schema.yext.com/fields/yext/name"
+    },
+    "nudgeEnabled": {
+      "$ref": "https://schema.yext.com/fields/yext/nudgeEnabled"
+    },
+    "primaryConversationContact": {
+      "$ref": "https://schema.yext.com/fields/yext/primaryConversationContact"
+    },
+    "timezone": {
+      "$ref": "https://schema.yext.com/fields/yext/timezone"
+    },
+    "validThrough": {
+      "$ref": "https://schema.yext.com/fields/yext/validThrough"
+    }
+  },
+  "required": [
+    "entityId",
+    "externalEntityId"
+  ],
+  "title": "Job",
+  "yext.entity_type_id": 4001
+}

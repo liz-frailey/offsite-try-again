@@ -1,0 +1,10 @@
+{
+  "$id": "job-1",
+  "$type": "https://schema.yext.com/config/km/sample-entity",
+  "entityType": "job",
+  "content": {
+    "yext.description": "This is a job description.",
+    "yext.jobLocation": "location-123",
+    "yext.name": "Job Example"
+  }
+}

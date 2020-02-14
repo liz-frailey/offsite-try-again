@@ -1,0 +1,130 @@
+{
+  "$id": "cta",
+  "$type": "https://schema.yext.com/config/km/custom-field-type",
+  "displayName": "CTA",
+  "apiName": "c_cta",
+  "type": {
+    "structType": {
+      "property": [
+        {
+          "name": "text",
+          "displayName": "Text",
+          "isRequired": false,
+          "typeId": "type.string",
+          "type": {
+            "stringType": {
+              "stereotype": "SIMPLE"
+            }
+          }
+        },
+        {
+          "name": "url",
+          "displayName": "URL",
+          "isRequired": false,
+          "typeId": "type.string",
+          "type": {
+            "stringType": {
+              "stereotype": "URL"
+            }
+          }
+        },
+        {
+          "name": "icon",
+          "displayName": "Icon",
+          "isRequired": false,
+          "typeId": "type.option",
+          "type": {
+            "optionType": {
+              "option": [
+                {
+                  "displayName": "briefcase",
+                  "textValue": "briefcase"
+                },
+                {
+                  "displayName": "calendar",
+                  "textValue": "calendar"
+                },
+                {
+                  "displayName": "callout",
+                  "textValue": "callout"
+                },
+                {
+                  "displayName": "chevron",
+                  "textValue": "chevron"
+                },
+                {
+                  "displayName": "document",
+                  "textValue": "document"
+                },
+                {
+                  "displayName": "gear",
+                  "textValue": "gear"
+                },
+                {
+                  "displayName": "info",
+                  "textValue": "info"
+                },
+                {
+                  "displayName": "kabob",
+                  "textValue": "kabob"
+                },
+                {
+                  "displayName": "link",
+                  "textValue": "link"
+                },
+                {
+                  "displayName": "magnifying_glass",
+                  "textValue": "magnifying_glass"
+                },
+                {
+                  "displayName": "mic",
+                  "textValue": "mic"
+                },
+                {
+                  "displayName": "office",
+                  "textValue": "office"
+                },
+                {
+                  "displayName": "pantheon",
+                  "textValue": "pantheon"
+                },
+                {
+                  "displayName": "person",
+                  "textValue": "person"
+                },
+                {
+                  "displayName": "phone",
+                  "textValue": "phone"
+                },
+                {
+                  "displayName": "pin",
+                  "textValue": "pin"
+                },
+                {
+                  "displayName": "receipt",
+                  "textValue": "receipt"
+                },
+                {
+                  "displayName": "star",
+                  "textValue": "star"
+                },
+                {
+                  "displayName": "support",
+                  "textValue": "support"
+                },
+                {
+                  "displayName": "tag",
+                  "textValue": "tag"
+                },
+                {
+                  "displayName": "window",
+                  "textValue": "window"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "$id": "answers",
+  "$type": "https://schema.yext.com/config/pages/site-config",
+  "HostName": "${{answers_hostName}}",
+  "PinnedProductionBranchName": "refs/heads/master",
+  "PinnedStagingBranchName": "refs/heads/build",
+  "SiteName": "Answers",
+  "StagingCredentials": {
+    "Password": "test",
+    "Username": "test"
+  },
+  "TargetRepoName": "${{answers_targetRepo}}",
+  "TemplateRepo": "github.com/big-ol-sandbox/answers.demo-offsite.com"
+}

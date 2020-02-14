@@ -1,0 +1,15 @@
+{
+  "$id": "job",
+  "$type": "https://schema.yext.com/config/km/built-in-entity-type",
+  "enabled": true,
+  "entry": [
+    {
+      "id": "ctas",
+      "required": false
+    },
+    {
+      "id": "relatedFAQs",
+      "required": false
+    }
+  ]
+}
